@@ -9,7 +9,7 @@ import org.junit.jupiter.api.Test;
  * @Description:
  * @Date: 2019-07-12 16:28
  */
-public class HqTest {
+public class HqRpcTest {
 
     @Test
     public void test(){
@@ -18,4 +18,5 @@ public class HqTest {
         HqPracticeFilter hqPracticeFilter = (HqPracticeFilter) filter;
         hqPracticeFilter.printBanner();
     }
+
 }
