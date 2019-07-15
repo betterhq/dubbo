@@ -44,30 +44,15 @@ public class HqClusterTest {
     }
 
     class MyInvoker implements Invoker{
-
         @Override
-        public Class getInterface() {
-            return null;
-        }
-
+        public Class getInterface() { return null; }
         @Override
-        public Result invoke(Invocation invocation) throws RpcException {
-            return null;
-        }
-
+        public Result invoke(Invocation invocation) throws RpcException { return null; }
         @Override
-        public URL getUrl() {
-            return null;
-        }
-
+        public URL getUrl() { return null; }
         @Override
-        public boolean isAvailable() {
-            return false;
-        }
-
+        public boolean isAvailable() { return false; }
         @Override
-        public void destroy() {
-
-        }
+        public void destroy() {}
     }
 }
