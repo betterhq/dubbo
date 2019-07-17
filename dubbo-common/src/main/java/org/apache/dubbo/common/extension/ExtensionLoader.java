@@ -867,6 +867,7 @@ public class ExtensionLoader<T> {
      */
     private boolean isWrapperClass(Class<?> clazz) {
         try {
+            // 这里的 type 是当前扩展点的接口，比如 ExtensionLoader<Protocol> 的这个 type 就是 Protocol
             clazz.getConstructor(type);
             return true;
         } catch (NoSuchMethodException e) {
